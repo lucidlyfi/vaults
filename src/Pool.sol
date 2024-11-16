@@ -52,6 +52,7 @@ contract Pool is Ownable, ReentrancyGuard {
     error Pool__SlippageLimitExceeded();
     error Pool__NeedToDepositAtleastOneToken();
     error Pool__InitialDepositAmountMustBeNonZero();
+    error Pool__MustContainAtleastTwoTokens();
     error Pool__TokenDecimalCannotBeZero();
     error Pool__AmountsMustBeNonZero();
     error Pool__WeightOutOfBounds();
